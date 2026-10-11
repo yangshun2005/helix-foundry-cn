@@ -1,0 +1,18 @@
+node_modules
+.env
+.env.*
+!.env.example
+.data
+coverage
+playwright-report
+test-results
+apps/web/dist
+packages/*/dist
+*.tgz
+*.log
+.DS_Store
+
+# Backups hold workspace data; scripts/backup.sh refuses folders in the repository
+backups/
+*.bak
+.claude/launch.json

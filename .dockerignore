@@ -1,0 +1,14 @@
+node_modules
+.git
+.env
+.env.*
+.data
+test-results
+playwright-report
+apps/web/dist
+packages/*/dist
+*.tgz
+*.log
+backups
+*.bak
+.claude
